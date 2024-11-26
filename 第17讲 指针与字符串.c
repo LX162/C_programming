@@ -141,7 +141,6 @@ int main() {
 	// 2. 字符串数组
 	// 3. main()函数，接收控制台数据
 
-
     // 知识点1：字符串的指针表示法
     // stringPointerRepresentation();
 
@@ -153,7 +152,6 @@ int main() {
     
     // 知识点4：字符串数组
     // stringArray();
-
 
 	// 训练代码1：使用字符数组指针解决输出5个字符串的问题
     // exerciseCharArrayPointer();
