@@ -107,6 +107,11 @@ void exerciseFunctionPointer() {
 }
 
 int main() {
+    // 1 指针变量作为函数的参数
+    // 2 用数组名做函数参数
+    // 3 指针作为函数返回值
+    // 4 指向函数的指针
+
     // 训练代码1：通过函数交换两个整数的值
     // exerciseSwap();
 

@@ -137,6 +137,11 @@ int isPrime(int n) {
 }
 
 int main() {
+	// 1. 字符串的指针表示法
+	// 2. 字符串数组
+	// 3. main()函数，接收控制台数据
+
+
     // 知识点1：字符串的指针表示法
     // stringPointerRepresentation();
 
