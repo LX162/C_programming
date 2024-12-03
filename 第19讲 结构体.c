@@ -84,6 +84,7 @@ void calculateScoresSummary() {
 
 int main() {
     // 1. 结构体与结构体变量
+    
     // 2. 结构体数组
     // 3. 结构体指针
 
