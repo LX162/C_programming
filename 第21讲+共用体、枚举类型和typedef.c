@@ -45,7 +45,8 @@ void demonstrateUnion() {
 void demonstrateEnum() {
     Weekday day;
     printf("Input week: ");
-    scanf("%d", &day);
+    // scanf("%d", &day);
+    day = 2;
     switch (day) {
         case Mon: puts("Monday"); break;
         case Tues: puts("Tuesday"); break;
@@ -86,7 +87,7 @@ void demonstrateTypedef() {
 void processPersonData() {
     Person person[2] = {
         {101, "Li", 'M', 's', {501}},
-        {102, "Wang", 'F', 't', {0}}
+        {102, "Wang", 'F', 't', {.position="Changsha"}}
     };
     for (int i = 0; i < 2; i++) {
         if (person[i].job == 's') {
@@ -111,9 +112,9 @@ int main() {
     // demonstrateEnum();
 
     // 知识点3：typedef的使用
-    // demonstrateTypedef();
+    demonstrateTypedef();
 
     // 例题1：使用共用体处理不同类别的数据
-    processPersonData();
+    // processPersonData();
     return 0;
 }
