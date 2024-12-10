@@ -81,6 +81,7 @@ void example2() {
     printf("%s", infile);
     // scanf("%s", infile);
     printf("输入输出文件的名字：");
+    printf("%s", outfile);
     // scanf("%s", outfile);
     if ((in = fopen(infile, "r")) == NULL) {
         printf("无法打开此文件\n");
@@ -122,3 +123,4 @@ int main() {
     example2();
     return 0;
 }
+

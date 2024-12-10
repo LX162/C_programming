@@ -112,7 +112,7 @@ int main() {
     // demonstrateEnum();
 
     // 知识点3：typedef的使用
-    demonstrateTypedef();
+    // demonstrateTypedef();
 
     // 例题1：使用共用体处理不同类别的数据
     // processPersonData();
